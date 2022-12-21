@@ -3,81 +3,71 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@Article{GV2022,
+author={Gorin*, Gennady
+and Vastola*, John J.
+and Fang, Meichen
+and Pachter, Lior},
+title={Interpretable and tractable models of transcriptional noise for the rational design of single-molecule quantification experiments},
+journal={Nature Communications},
+year={2022},
+month={Dec},
+day={09},
+volume={13},
+number={1},
+pages={7620},
+abstract={The question of how cell-to-cell differences in transcription rate affect RNA count distributions is fundamental for understanding biological processes underlying transcription. Answering this question requires quantitative models that are both interpretable (describing concrete biophysical phenomena) and tractable (amenable to mathematical analysis). This enables the identification of experiments which best discriminate between competing hypotheses. As a proof of principle, we introduce a simple but flexible class of models involving a continuous stochastic transcription rate driving a discrete RNA transcription and splicing process, and compare and contrast two biologically plausible hypotheses about transcription rate variation. One assumes variation is due to DNA experiencing mechanical strain, while the other assumes it is due to regulator number fluctuations. We introduce a framework for numerically and analytically studying such models, and apply Bayesian model selection to identify candidate genes that show signatures of each model in single-cell transcriptomic data from mouse glutamatergic neurons.},
+issn={2041-1723},
+doi={10.1038/s41467-022-34857-7},
+url={https://doi.org/10.1038/s41467-022-34857-7},
+pdf={natcomm_interp.pdf},
+html={https://www.nature.com/articles/s41467-022-34857-7}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{Vastola2022,
+title={Is the information geometry of probabilistic population codes learnable?},
+author={Vastola, John J. and Zach Cohen and Jan Drugowitsch},
+booktitle={NeurIPS 2022 Workshop on Symmetry and Geometry in Neural Representations},
+year={2022},
+url={https://openreview.net/forum?id=vCKJJM4Hj56},
+abstract={One reason learning the geometry of latent neural manifolds from neural activity data is difficult is that the ground truth is generally not known, which can make manifold learning methods hard to evaluate. Probabilistic population codes (PPCs), a class of biologically plausible and self-consistent models of neural populations that encode parametric probability distributions, may offer a theoretical setting where it is possible to rigorously study manifold learning. It is natural to define the neural manifold of a PPC as the statistical manifold of the encoded distribution, and we derive a mathematical result that the information geometry of the statistical manifold is directly related to measurable covariance matrices. This suggests a simple but rigorously justified decoding strategy based on principal component analysis, which we illustrate using an analytically tractable PPC.},
+pdf={neurips_geo.pdf},
+html={https://openreview.net/forum?id=vCKJJM4Hj56}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  selected={true}
+@Article{Vastola2021,
+author={Vastola, John J.},
+title={Solving the chemical master equation for monomolecular reaction systems and beyond: a Doi-Peliti path integral view},
+journal={Journal of Mathematical Biology},
+year={2021},
+month={Oct},
+day={11},
+volume={83},
+number={5},
+pages={48},
+abstract={The chemical master equation (CME) is a fundamental description of interacting molecules commonly used to model chemical kinetics and noisy gene regulatory networks. Exact time-dependent solutions of the CME---which typically consists of infinitely many coupled differential equations---are rare, and are valuable for numerical benchmarking and getting intuition for the behavior of more complicated systems. Jahnke and Huisinga's landmark calculation of the exact time-dependent solution of the CME for monomolecular reaction systems is one of the most general analytic results known; however, it is hard to generalize, because it relies crucially on special properties of monomolecular reactions. In this paper, we rederive Jahnke and Huisinga's result on the time-dependent probability distribution and moments of monomolecular reaction systems using the Doi-Peliti path integral approach, which reduces solving the CME to evaluating many integrals. While the Doi-Peliti approach is less intuitive, it is also more mechanical, and hence easier to generalize. To illustrate how the Doi-Peliti approach can go beyond the method of Jahnke and Huisinga, we also find an explicit and exact time-dependent solution to a problem involving an autocatalytic reaction that Jahnke and Huisinga identified as not solvable using their method. Most interestingly, we are able to find a formal exact time-dependent solution for any CME whose list of reactions involves only zero and first order reactions, which may be the most general result currently known. This formal solution also yields a useful algorithm for efficiently computing numerical solutions to CMEs of this type.},
+issn={1432-1416},
+doi={10.1007/s00285-021-01670-7},
+url={https://doi.org/10.1007/s00285-021-01670-7},
+pdf={jmb_mono.pdf},
+html={https://link.springer.com/article/10.1007/s00285-021-01670-7}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{Vastola2020,
+  title = {Chemical Langevin equation: A path-integral view of Gillespie's derivation},
+  author = {Vastola, John J. and Holmes, William R.},
+  journal = {Phys. Rev. E},
+  volume = {101},
+  issue = {3},
+  pages = {032417},
+  numpages = {15},
+  year = {2020},
+  month = {Mar},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.101.032417},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.101.032417},
+  abstract={In 2000, Gillespie rehabilitated the chemical Langevin equation (CLE) by describing two conditions that must be satisfied for it to yield a valid approximation of the chemical master equation (CME). In this work, we construct an original path-integral description of the CME and show how applying Gillespie's two conditions to it directly leads to a path-integral equivalent to the CLE. We compare this approach to the path-integral equivalent of a large system size derivation and show that they are qualitatively different. In particular, both approaches involve converting many sums into many integrals, and the difference between the two methods is essentially the difference between using the Euler-Maclaurin formula and using Riemann sums. Our results shed light on how path integrals can be used to conceptualize coarse-graining biochemical systems and are readily generalizable.},
+  pdf={pre_cle.pdf},
+  html={https://journals.aps.org/pre/abstract/10.1103/PhysRevE.101.032417}
 }
