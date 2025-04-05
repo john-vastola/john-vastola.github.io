@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Department of Neurobiology, Harvard Medical School
+subtitle: Center for Brain Science and Kempner Institute, Harvard University
 
 profile:
   align: right

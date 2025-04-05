@@ -3,6 +3,47 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{vastola2025generalization,
+title={Generalization through variance: how noise shapes inductive biases in diffusion models},
+author={John J. Vastola},
+booktitle={The {T}hirteenth {I}nternational {C}onference on {L}earning {R}epresentations},
+year={2025},
+html={https://openreview.net/forum?id=7lUdo8Vuqa},
+keywords={publication},
+pdf={gen_var.pdf},
+abstract={How diffusion models generalize beyond their training set is not known, and is somewhat mysterious given two facts: the optimum of the denoising score matching (DSM) objective usually used to train diffusion models is the score function of the training distribution; and the networks usually used to learn the score function are expressive enough to learn this score to high accuracy. We claim that a certain feature of the DSM objective—the fact that its target is not the training distribution's score, but a noisy quantity only equal to it in expectation—strongly impacts whether and to what extent diffusion models generalize. In this paper, we develop a mathematical theory that partly explains this 'generalization through variance' phenomenon. Our theoretical analysis exploits a physics-inspired path integral approach to compute the distributions typically learned by a few paradigmatic under- and overparameterized diffusion models. We find that the distributions diffusion models effectively learn to sample from resemble their training distributions, but with `gaps' filled in, and that this inductive bias is due to the covariance structure of the noisy target used during training. We also characterize how this inductive bias interacts with feature-related inductive biases.},
+}
+
+
+
+@article{wang2024the,
+title={The Unreasonable Effectiveness of {G}aussian Score Approximation for Diffusion Models and its Applications},
+author={Binxu Wang and John J. Vastola},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2024},
+html={https://openreview.net/forum?id=I0uknSHM2j},
+note={},
+doi={10.1016/j.cels.2023.08.004},
+abstract= {Diffusion models have achieved remarkable results in multiple domains of generative modeling. By learning the gradient of smoothed data distributions, they can iteratively generate samples from complex distributions, e.g., of natural images. The learned score function enables their generalization capabilities, but how the learned score relates to the score of the underlying data manifold remains largely unclear. Here, we aim to elucidate this relationship by comparing the learned scores of neural-network-based models to the scores of two kinds of analytically tractable distributions: Gaussians and Gaussian mixtures. The simplicity of the Gaussian model makes it particularly attractive from a theoretical point of view, and we show that it admits a closed-form solution and predicts many qualitative aspects of sample generation dynamics. We claim that the learned neural score is dominated by its linear (Gaussian) approximation for moderate to high noise scales, and supply both theoretical and empirical arguments to support this claim. Moreover, the Gaussian approximation empirically works for a larger range of noise scales than naive theory suggests it should, and is preferentially learned by networks early in training. At smaller noise scales, we observe that learned scores are better described by a coarse-grained (Gaussian mixture) approximation of training data than by the score of the training distribution, a finding consistent with generalization. Our findings enable us to precisely predict the initial phase of trained models' sampling trajectories through their Gaussian approximations. We show that this allows one to leverage the Gaussian analytical solution to skip the first 15-30\% of sampling steps while maintaining high sample quality (with a near state-of-the-art FID score of 1.93 on CIFAR-10 unconditional generation). This forms the foundation of a novel hybrid sampling method, termed \textit{analytical teleportation}, which can seamlessly integrate with and accelerate existing samplers, including DPM-Solver-v3 and UniPC. Our findings strengthen the field's theoretical understanding of how diffusion models work and suggest ways to improve the design and training of diffusion models.},
+pdf={unreasonable_diffusion.pdf}
+}
+
+@InProceedings{V2023optimal,
+  title = 	 {Optimal packing of attractor states in neural representations},
+  author =       {John J. Vastola},
+  booktitle = 	 {Proceedings of the 2nd {N}eur{IPS} {W}orkshop on {S}ymmetry and {G}eometry in {N}eural {R}epresentations},
+  pages = 	 {425--442},
+  year = 	 {2024},
+  editor = 	 {Sanborn, Sophia and Shewmake, Christian and Azeglio, Simone and Miolane, Nina},
+  volume = 	 {228},
+  series = 	 {Proceedings of Machine Learning Research},
+  publisher =    {PMLR},
+  html = 	 {https://proceedings.mlr.press/v228/vastola24a.html},
+  abstract = 	 {Animals’ internal states reflect variables like their position in space, orientation, decisions, and motor actions—but how should these internal states be arranged? Internal states which frequently transition between one another should be close enough that transitions can happen quickly, but not so close that neural noise significantly impacts the stability of those states, and how reliably they can be encoded and decoded. In this paper, we study the problem of striking a balance between these two concerns, which we call an ‘optimal packing’ problem since it resembles mathematical problems like sphere packing. While this problem is generally extremely difficult, we show that symmetries in environmental transition statistics imply certain symmetries of the optimal neural representations, which allows us in some cases to exactly solve for the optimal state arrangement. We focus on two toy cases: uniform transition statistics, and cyclic transition statistics. },
+  keywords={publication},
+  pdf={optimal_packing.pdf}
+}
 
 @Article{Gorin2023,
 author={Gorin, Gennady
