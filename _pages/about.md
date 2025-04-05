@@ -21,11 +21,9 @@ social: false  # includes social icons at the bottom of the page
 
 What do you think?
 
-I'm a postdoc in the lab of [Jan Drugowitsch](https://drugowitschlab.hms.harvard.edu/). 
+I'm a postdoc in the labs of [Sam Gershman](https://gershmanlab.com/) and [Kanaka Rajan](https://www.rajanlab.com/). 
 
 <br/><br/><br/><br/>
 
 
 [HMS biweekly RL and the Brain seminar info](https://www.rlandthebrain.com/hms_seminar)
-
-[HMS Machine Learning from Scratch seminar info](https://github.com/DrugowitschLab/ML-from-scratch-seminar)
