@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Center for Brain Science and Kempner Institute, Harvard University
+subtitle: Center for Brain Science and Kempner Institute | Harvard University
 
 profile:
   align: right
