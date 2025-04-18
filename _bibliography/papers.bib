@@ -14,6 +14,17 @@ pdf={gen_var.pdf},
 abstract={How diffusion models generalize beyond their training set is not known, and is somewhat mysterious given two facts: the optimum of the denoising score matching (DSM) objective usually used to train diffusion models is the score function of the training distribution; and the networks usually used to learn the score function are expressive enough to learn this score to high accuracy. We claim that a certain feature of the DSM objective—the fact that its target is not the training distribution's score, but a noisy quantity only equal to it in expectation—strongly impacts whether and to what extent diffusion models generalize. In this paper, we develop a mathematical theory that partly explains this 'generalization through variance' phenomenon. Our theoretical analysis exploits a physics-inspired path integral approach to compute the distributions typically learned by a few paradigmatic under- and overparameterized diffusion models. We find that the distributions diffusion models effectively learn to sample from resemble their training distributions, but with `gaps' filled in, and that this inductive bias is due to the covariance structure of the noisy target used during training. We also characterize how this inductive bias interacts with feature-related inductive biases.},
 }
 
+@inproceedings{vastola2025dynamical,
+    title={Dynamical symmetries in the fluctuation-driven regime: an application of Noether's theorem to noisy dynamical systems},
+    author={John J. Vastola},
+    booktitle={Proceedings of the 3rd {N}eur{IPS} {W}orkshop on {S}ymmetry and {G}eometry in {N}eural {R}epresentations},
+    year={2025},
+    url={https://openreview.net/forum?id=lLiIJc7oCJ},
+    html={https://openreview.net/forum?id=lLiIJc7oCJ},
+    pdf={noether.pdf},
+    abstract={Noether's theorem provides a powerful link between continuous symmetries and conserved quantities for systems governed by some variational principle. Perhaps unfortunately, most dynamical systems of interest in neuroscience and artificial intelligence cannot be described by any such principle. On the other hand, nonequilibrium physics provides a variational principle that describes how fairly generic noisy dynamical systems are most likely to transition between two states; in this work, we exploit this principle to apply Noether's theorem, and hence learn about how the continuous symmetries of dynamical systems constrain their most likely trajectories. We identify analogues of the conservation of energy, momentum, and angular momentum, and briefly discuss examples of each in the context of models of decision-making, recurrent neural networks, and diffusion generative models.}
+}
+
 
 
 @article{wang2024the,
