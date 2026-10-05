@@ -6,7 +6,7 @@ subtitle: Center for Brain Science and Kempner Institute | Harvard University
 
 profile:
   align: right
-  image: headshot_zoomed.jpg
+  image: singapore.jpg
   image_circular: true # crops the image to make it circular
   address: 
 
@@ -18,12 +18,10 @@ social: false  # includes social icons at the bottom of the page
 
 
 
+I'm a postdoctoral researcher at Harvard University. I work at the interface of computational neuroscience, artificial intelligence, and systems biology in the labs of [Sam Gershman](https://gershmanlab.com/) and [Kanaka Rajan](https://www.rajanlab.com/). 
 
-What do you think?
-
-I'm a postdoc in the labs of [Sam Gershman](https://gershmanlab.com/) and [Kanaka Rajan](https://www.rajanlab.com/). 
-
-<br/><br/><br/><br/>
-
-
-[HMS biweekly RL and the Brain seminar info](https://www.rlandthebrain.com/hms_seminar)
+I use mathematical modeling and computational approaches to develop theories of learning and behavior across cells, brains, and machines. I am broadly interested in:
+- normative models of learning and behavior,
+- learning dynamics in tractable model systems, 
+- the biophysical mechanisms underlying learning and memory, and 
+- the foundations of natural and artificial intelligence.
