@@ -14,9 +14,8 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-
-
-
+<sup>*I also suspect that within most modellers a frustrated mathematician is trying to unfold his wings. It is not enough to make something that works. How much better if it can be shown to embody some powerful general principle for handling information, expressible in a deep mathematical form, if only to give an air of intellectual respectability to an otherwise rather low-brow enterprise.* - Francis Crick</sup>
+<br/>
 
 I'm a postdoctoral researcher at Harvard University. I work at the interface of computational neuroscience, artificial intelligence, and systems biology in the labs of [Sam Gershman](https://gershmanlab.com/) and [Kanaka Rajan](https://www.rajanlab.com/). 
 
